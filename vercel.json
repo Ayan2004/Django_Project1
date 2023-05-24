@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "prject7/wsgi.py",
+        "src": "project7/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
       },

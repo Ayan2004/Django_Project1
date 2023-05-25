@@ -2,6 +2,7 @@ echo "Build Start"
 
 vercel --yes
 pip install -r requirements.txt
+vercel --yes
 # python3.9 manage.py collectstatic 
 
 # make migrations
